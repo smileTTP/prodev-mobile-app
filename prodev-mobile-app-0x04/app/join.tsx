@@ -30,7 +30,13 @@ export default function Join() {
               <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
             </View>
           </View>
-          <Text style={styles.forgotPasswordText}>Forgot password?</Text>
+          <View style={{ marginTop: 20 }}>
+            <Text style={styles.placeholderText}>Password</Text>
+            <View style={styles.passwordGroup}>
+              <TextInput style={{ flex: 1 }} />
+              <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
+            </View>
+          </View>
         </View>
 
         <TouchableOpacity style={styles.button}>
