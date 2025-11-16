@@ -67,11 +67,12 @@ const styles = StyleSheet.create({
   },
   secondaryButtonGroup: {
     rowGap: 15,
-    marginTop: 15,
+    marginTop: 15
   },
   secondaryButton: {
     height: 53,
     borderRadius: 10,
+    borderColor: '#E9E9E9',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
