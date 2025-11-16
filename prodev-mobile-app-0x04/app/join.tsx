@@ -3,6 +3,7 @@ import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "@/constants";
 import { styles } from "@/styles/_join";
+import { Link } from "expo-router";
 
 export default function Join() {
   return (
@@ -93,7 +94,9 @@ export default function Join() {
 
         <View style={styles.signupgroup}>
           <Text style={styles.signupTitleText}>You have an account?</Text>
+          <Link href={"/signin"}>
           <Text style={styles.signupSubTitleText}>Signin now</Text>
+          </Link>
         </View>
       </SafeAreaView>
     </SafeAreaProvider>
