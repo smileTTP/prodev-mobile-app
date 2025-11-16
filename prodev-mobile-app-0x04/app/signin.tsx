@@ -9,7 +9,9 @@ export default function Signin() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
         <View style={styles.iconsection}>
-          <Ionicons name="arrow-back" size={25} />
+            <Link href={"/"}>
+            <Ionicons name="arrow-back" size={25} />
+            </Link>
           <Image source={HEROLOGOGREEN} />
         </View>
         <View style={styles.titleTextGroup}>
