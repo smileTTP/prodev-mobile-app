@@ -12,10 +12,10 @@ export default function Join() {
           <Ionicons name="arrow-back" size={25} />
           <Image source={HEROLOGO} />
         </View>
-        <Text style={styles.largeText}>Sign in to your</Text>
+        <Text style={styles.largeText}>Create Your</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>
-          Enter your email and password to sign in.
+            Enter your details to create a new account.
         </Text>
 
         <View style={styles.formGroup}>
