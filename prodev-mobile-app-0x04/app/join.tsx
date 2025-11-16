@@ -1,4 +1,4 @@
-import { Text, TextInput, View, TouchableOpacity, Image, StyleSheet } from "react-native";
+import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { FACEBOOKLOGO, GOOGLELOGO, HEROLOGOGREEN } from "@/constants";
