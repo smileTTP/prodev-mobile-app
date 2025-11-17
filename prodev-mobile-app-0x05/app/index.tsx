@@ -36,7 +36,9 @@ export default function Index() {
               </Link>
           </View>
           <View style={{ alignItems: "center", paddingVertical: 20 }}>
-            <Text style={{ color: "white" }}>Continue to home</Text>
+            <Link href={'/(home)'}>
+              <Text style={{ color: "white" }}>Continue to home</Text>
+            </Link>
           </View>
         </ImageBackground>
     </SafeAreaView>

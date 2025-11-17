@@ -1,0 +1,1 @@
+const MANSION = require('@/assets/categories/mansion.png')

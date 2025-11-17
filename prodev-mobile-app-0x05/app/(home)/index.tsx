@@ -27,7 +27,7 @@ const Home = () => {
             <View style={styles.filterGroup}>
                 {FILTERS.map((filter, index) => (
                     <View style={styles.filterContainer} key={index}>
-                    <Image style={{ flex: 1 }} source={require("@/assets/images/mansion.png")} resizeMode="contain" />
+                    <Image style={{ flex: 1 }} source={require("@/assets/categories/mansion.png")} resizeMode="contain" />
                     <Text>{filter}</Text>
                     </View>
                 ))}
