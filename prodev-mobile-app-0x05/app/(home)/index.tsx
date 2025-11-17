@@ -15,6 +15,7 @@ const Home = () => {
                     <TextInput
                     style={{ ...styles.searchControl, ...styles.searchFormText }}
                     placeholder="Location . Date . Add guest"
+                    placeholderTextColor="#7E7B7B"
                     />
                 </View>
                 <View style={styles.searchButton}>
