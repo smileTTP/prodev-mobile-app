@@ -49,13 +49,12 @@ const styles = StyleSheet.create({
         height: 39,
         justifyContent: 'center',
         alignItems: 'center',
-
     },
     filterGroup: {
-
+        alignItems: 'center',
     },
     filterContainer: {
-
+        
     },
     listingContainer: {
 

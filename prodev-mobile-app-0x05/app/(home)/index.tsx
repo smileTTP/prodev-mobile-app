@@ -24,7 +24,7 @@ const Home = () => {
         </View>
 
         <View style={{ height: 72, backgroundColor: "white"}}>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={true}>
             <View style={styles.filterGroup}>
                 {FILTERS.map((filter, index) => (
                     <View style={styles.filterContainer} key={index}>
