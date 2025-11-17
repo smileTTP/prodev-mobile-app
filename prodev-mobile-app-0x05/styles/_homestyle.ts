@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         paddingVertical: 8,
         paddingLeft: 20,
         paddingRight: 10, 
-        height: 54,
+        height: 60,
         width: 374,
         margin: 40,
     },
