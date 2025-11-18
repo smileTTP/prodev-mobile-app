@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     },
     cardGroup: {
       flexDirection: "row",
-      columnGap: 40,
+      columnGap: 26,
       alignItems: "center",
     },
     group: {
