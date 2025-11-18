@@ -25,12 +25,12 @@ const Home = () => {
         </View>
 
         <View style={{ height: 72, backgroundColor: "white"}}>
-        <ScrollView horizontal showsHorizontalScrollIndicator={true}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <View style={styles.filterGroup}>
                 {FILTERS.map((filter, index) => (
                     <View style={styles.filterContainer} key={index}>
-                    <Image style={{ flex: 1 }} source={MANSION} resizeMode="contain" />
-                    <Text>{filter}</Text>
+                    <Image style={{ flex: 1, height: 27, width: 27 }} source={MANSION} resizeMode="contain" />
+                    <Text style={{ fontSize: 11, color: '#7E7B7B', }}>{filter}</Text>
                     </View>
                 ))}
             </View>

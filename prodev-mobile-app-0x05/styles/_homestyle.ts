@@ -51,10 +51,15 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     filterGroup: {
-        alignItems: 'center',
+        flex: 1,
+        flexDirection: 'row',
+        padding: 8,
+        justifyContent: 'center',
+        
     },
     filterContainer: {
-        
+        alignItems: 'center',
+        margin: 8,
     },
     listingContainer: {
 
