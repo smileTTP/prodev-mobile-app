@@ -1,0 +1,92 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+    },
+    searchGroup: {
+        backgroundColor: '#34967C',
+        height: 134,
+        paddingHorizontal: 15,
+        paddingVertical: 10,
+        alignItems: 'center',
+    },
+    searchFormGroup: {
+        flexDirection: 'row',
+        alignItems: 'center', 
+        backgroundColor: '#fff', 
+        borderRadius: 60,
+        paddingVertical: 8,
+        paddingLeft: 20,
+        paddingRight: 10, 
+        height: 60,
+        width: 374,
+        margin: 40,
+    },
+    searchControlGroup: {
+        flex: 1, 
+        flexDirection: 'column', 
+        justifyContent: 'center', 
+        paddingRight: 10, 
+    },
+    searchFormText: {
+        fontSize: 14,
+        fontWeight: 'medium',
+        color: 'black', 
+        marginBottom: 2,
+    },
+    searchControl: {
+        fontSize: 12,
+        fontWeight: 'normal',
+        color: '#7E7B7B', 
+        padding: 0, 
+        height: 18,
+    },
+    searchButton: {
+        backgroundColor: '#FFA800',
+        borderRadius: 60,
+        width: 39,
+        height: 39,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    filterGroup: {
+        flex: 1,
+        flexDirection: 'row',
+        padding: 8,
+        justifyContent: 'center',
+        
+    },
+    filterContainer: {
+        alignItems: 'center',
+        margin: 8,
+    },
+    listingContainer: {
+        padding: 10,
+    },
+    paginationContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',  
+    },
+    showMoreButton: {
+        width: 180,
+        height: 56,
+        backgroundColor: '#161117',
+        borderRadius: 86,
+        paddingTop: 12,
+        paddingRight: 19,
+        paddingLeft: 19,
+        margin: 20
+    },
+    showMoreButtonText: {
+        flex: 1,
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 19.76,
+        fontWeight: 'medium',
+    }
+
+});
+
+export { styles };
