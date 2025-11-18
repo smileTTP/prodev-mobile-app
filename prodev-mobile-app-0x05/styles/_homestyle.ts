@@ -62,16 +62,29 @@ const styles = StyleSheet.create({
         margin: 8,
     },
     listingContainer: {
-
+        padding: 10,
     },
     paginationContainer: {
-
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',  
     },
     showMoreButton: {
-
+        width: 180,
+        height: 56,
+        backgroundColor: '#161117',
+        borderRadius: 86,
+        paddingTop: 12,
+        paddingRight: 19,
+        paddingLeft: 19,
+        margin: 20
     },
     showMoreButtonText: {
-
+        flex: 1,
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 19.76,
+        fontWeight: 'medium',
     }
 
 });
